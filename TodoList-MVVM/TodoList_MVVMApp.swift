@@ -25,6 +25,7 @@ struct TodoList_MVVMApp: App {
             NavigationView {
                 ListView()
             }
+            .navigationViewStyle(.stack)
             .environmentObject(self.listViewModel)
         }
     }
