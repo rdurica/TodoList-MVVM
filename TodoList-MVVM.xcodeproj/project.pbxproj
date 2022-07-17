@@ -15,6 +15,7 @@
 		2D4F2DEF28834B2A0009F77E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F2DEE28834B2A0009F77E /* AddView.swift */; };
 		2D4F2DF228834F860009F77E /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F2DF128834F860009F77E /* ItemModel.swift */; };
 		2D4F2DF5288357AA0009F77E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F2DF4288357AA0009F77E /* ListViewModel.swift */; };
+		2DD3696928849B6400A7C99D /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD3696828849B6400A7C99D /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2D4F2DEE28834B2A0009F77E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		2D4F2DF128834F860009F77E /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		2D4F2DF4288357AA0009F77E /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		2DD3696828849B6400A7C99D /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				2D4F2DEA2883478E0009F77E /* ListView.swift */,
 				2D4F2DEC288348D90009F77E /* ListRowView.swift */,
+				2DD3696828849B6400A7C99D /* NoItemsView.swift */,
 				2D4F2DEE28834B2A0009F77E /* AddView.swift */,
 			);
 			path = Views;
@@ -178,6 +181,7 @@
 				2D4F2DF5288357AA0009F77E /* ListViewModel.swift in Sources */,
 				2D4F2DDC288345E90009F77E /* TodoList_MVVMApp.swift in Sources */,
 				2D4F2DEB2883478E0009F77E /* ListView.swift in Sources */,
+				2DD3696928849B6400A7C99D /* NoItemsView.swift in Sources */,
 				2D4F2DED288348D90009F77E /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
