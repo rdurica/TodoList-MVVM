@@ -8,8 +8,8 @@
 import Foundation
 
 // Immutable struct
-struct ItemModel: Identifiable {
-    let id: UUID = UUID()
+struct ItemModel: Identifiable, Codable {
+    private(set) var id: UUID = UUID()
     let title: String
     let isCompleted: Bool
 
@@ -21,4 +21,4 @@ struct ItemModel: Identifiable {
     func updateCompletion() -> ItemModel {
         return ItemModel(id: id, title: title, isCompleted: !isCompleted)
     }
-}   
+}
